@@ -29,19 +29,41 @@ var sum = max - min;
  console.log(`The company ${name} has a salary range of ${sum}`)
 }
 
-salaryRange("Bob's Burgers",110000,90000)
+salaryRange("Bob's Burgers",110000,90000);
 
 
 // 4: Write a function that satifies the following interaction pattern:
 
-checkStock(4, "Coffee");
- => "Coffee is stocked"
+//checkStock(4, "Coffee");
+ //=> "Coffee is stocked"
 
-checkStock(3, "Tortillas");
- => "Tortillas - running LOW"
+//// => "Tortillas - running LOW"
+
+//checkStock(0, "Cheese");
+// => "Cheese - OUT of stock!"
+
+//checkStock(1, "Salsa");
+// => "Salsa - running LOW"
+
+function checkStock (num, word) {
+
+  if (num===4)
+  { console.log(`${word} is stocked`)}
+
+ else if(num <= 3 && num >= 1)
+
+{ console.log (`${word} - running low`)}
+
+else if( num===0) { console.log (`${word} - out of stock!`)}
+};
+
+checkStock(4, "Coffee");
+ //=> "Coffee is stocked"
+checkStock(3, "tortillas")
+// => "Tortillas - running LOW"
 
 checkStock(0, "Cheese");
- => "Cheese - OUT of stock!"
+// => "Cheese - OUT of stock!"
 
 checkStock(1, "Salsa");
- => "Salsa - running LOW"
+// => "Salsa - running LOW"
