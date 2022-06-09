@@ -3,7 +3,7 @@
 // YOUR TASK:
   // Modify the code to make that improvement(s)
   // write a JS comment to explain what you changed, and why
-  // make sure the code you submit WORKS - you can run this entire file 
+  // make sure the code you submit WORKS - you can run this entire file
     // using `node cleanUp.js` or copy and paste into a replit
 
 
@@ -26,7 +26,7 @@ addThreeNums(4, 2, 7);
 
 
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -36,11 +36,14 @@ func makeFreshPesto(){
 makeFreshPesto();
 
 
+// added funtion to the beginning of the syntax
+
 //  EX 4:
-function average(num1, num2) 
+function average(num1, num2)
   {
 var sum = num1 + num2;
     var avg = sum / 2;
 
-  console.log(`the average is: ${avg}`.)
+  console.log(`the average is: ${avg}`)
   }
+//Removed a period at the end of the call behind the arguement avg
