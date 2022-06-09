@@ -46,4 +46,7 @@ var sum = num1 + num2;
 
   console.log(`the average is: ${avg}`)
   }
+
+  average(5,10)
 //Removed a period at the end of the call behind the arguement avg
+// added a call for the syntax
